@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpoffice/phpspreadsheet": "^2.1",
+        "php-ai/php-ml": "^0.10.0"
+    }
+}

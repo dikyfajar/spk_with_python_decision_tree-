@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule ^$ views/auth/login.php [L]
+    RewriteRule ^login$ views/auth/login.php [L]
+    RewriteRule ^home$ index.php?page=views/home.php [L]
+    RewriteRule ^data$ index.php?page=views/data.php [L]
+    RewriteRule ^predict$ index.php?page=views/predict.php [L]
+    Options All -Indexes
+</IfModule>
